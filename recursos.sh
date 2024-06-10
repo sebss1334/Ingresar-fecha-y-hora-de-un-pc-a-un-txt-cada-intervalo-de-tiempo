@@ -1,4 +1,4 @@
-N=5
+read -p "Ingresa el intervalo de tiempo (en segundos): " N
 archivo="recursos.csv"
 
 echo "Fecha,Hora,Memoria (MB),CPU (%)" > "$archivo"
